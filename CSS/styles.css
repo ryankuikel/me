@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+
+}
+footer {
+    margin-top:40px;
+    background: black;
+    color : white;
+    padding-top: 20px;
+    padding-bottom:20px;
+
+}
+hr {
+    border-style: none;
+    width :5%;
+    border-width: 5px;
+    border-top-style:dotted;
+}
+
+#main-head {
+    margin: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    font-weight: 550;
+}
+
+.prof {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+
+    color: #11999E;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+
+    color: #11999E;
+}
+
+
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+
+}
+
+
+.top-container {
+    
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    padding-bottom: 320px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+.dev {
+    text-decoration: underline;
+}
+
+.mountain {
+    width: 650px;
+
+}
+
+.my-picture {
+    border-radius: 60%;
+    width: 300px;
+}
+
+.skill-one {
+
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-two {
+    border-radius: 60%;
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.prof {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.skills-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.btn {
+    background:  #11999E;
+    color: white;
+    text-decoration: none;
+    padding : 8px;
+}
+.footer-link {
+    text-decoration: none;
+    color:white;
+}
+.last {
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background-color: black;
+}
+@media (min-width: 900px) {
+    .top-container {
+      
+      background-image: url(/Images/cloud.png);
+    }
+  }

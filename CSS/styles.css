@@ -1,139 +1,215 @@
-body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    line-height: 2;
-
-}
-footer {
-    margin-top:40px;
-    background: black;
-    color : white;
-    padding-top: 20px;
-    padding-bottom:20px;
-
-}
-hr {
-    border-style: none;
-    width :5%;
-    border-width: 5px;
-    border-top-style:dotted;
-}
-
-#main-head {
-    margin: 50px;
-    font-family: 'Sacramento', cursive;
-    font-size: 90px;
-    margin-bottom: 0px;
-    color: whitesmoke;
-    font-weight: 550;
-}
-
-.prof {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: whitesmoke;
+H1 {
+  color: white;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
 
-    color: #11999E;
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-
-    color: #11999E;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
 }
 
-
-
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+p {
+  color: #8f8f8f;
 }
 
-.bottom-cloud {
-    position: absolute;
-    top: 400px;
-    left: 300px;
-
+.container-fluid {
+  padding: 3% 15%;
 }
 
-
-.top-container {
-    
-    position: relative;
-    padding-top: 100px;
-    margin-bottom: 70px;
-    padding-bottom: 320px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
-
+.iFUN {
+  width: 120%;
+  margin-top: 65px;
+  transform: rotate(25deg);
 }
 
-.dev {
-    text-decoration: underline;
-}
-
-.mountain {
-    width: 650px;
-
-}
-
-.my-picture {
-    border-radius: 60%;
-    width: 300px;
-}
-
-.skill-one {
-
-    width: 25%;
-    float: left;
-    padding-right: 30px;
-}
-
-.skill-two {
-    border-radius: 60%;
-    width: 25%;
-    float: right;
-    padding-left: 30px;
-}
-
-.prof {
-    font-size: 1.5rem;
-    font-weight: normal;
-}
-
-.skills-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-}
 .btn {
-    background:  #11999E;
-    color: white;
-    text-decoration: none;
-    padding : 8px;
+  margin-top: 60px;
+  margin-right: 20px;
+  ;
 }
-.footer-link {
-    text-decoration: none;
-    color:white;
+
+.sym {
+  font-size: 50px;
+  padding-bottom: 30px;
+  color: #348498;
 }
-.last {
-    margin-bottom: 30px;
+
+.sym:hover {
+  color: #5bd1d7;
 }
-.btn:hover{
-    background-color: black;
+
+.weAre {
+  margin-top: 70px;
+  font-size: 3.5rem;
 }
-@media (min-width: 900px) {
-    .top-container {
-      
-      background-image: url(/Images/cloud.png);
-    }
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  padding-right: 18px;
+
+}
+
+
+.navbar {
+  padding-left: 0;
+}
+
+#features {
+  padding: 0% 10% 0% 10%;
+  text-align: center;
+  position: relative;
+
+
+}
+
+.feat {
+
+  padding: 10% 3% 0% 3%;
+}
+
+#testimonials {
+
+  background: #414a4c;
+  text-align: center;
+  color: white;
+  margin-bottom: -40px;
+}
+
+.elon {
+  width: 24.199%;
+  border-radius: 50%;
+  margin: 50px 12px 0px 0px;
+}
+
+.gates {
+  width: 25%;
+  border-radius: 50%;
+  margin: 50px 12px 0px 0px;
+}
+
+.anish {
+  width: 25%;
+  border-radius: 50%;
+  margin: 50px 12px 0px 0px;
+}
+
+#press {
+  padding: 0% 10% 0% 10%;
+  background: #414a4c;
+  text-align: center;
+
+}
+
+.kant {
+  width: 33.33%
+}
+
+.aaj {
+  width: 30%;
+  position: relative;
+  right: 10px;
+}
+
+.ap1 {
+  width: 33.33%
+}
+
+.nC {
+  width: 300px;
+  padding-right: 100px;
+  position: relative;
+  left: 50px;
+}
+
+.carousel-control-prev {
+  padding-right: 40px;
+}
+
+.carousel-item {
+  padding: 7% 10% 7% 10%;
+}
+
+#pricing {
+  padding: 70px;
+  text-align: center;
+
+}
+
+.cartop {
+  padding: 60px 30px;
+}
+
+.money {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.allFeat {
+
+  position: relative;
+  background-color: white;
+  bottom: 180px;
+  margin-bottom: -50px
+}
+
+.container-fluid {
+  padding-bottom: 100px;
+}
+
+@media(max-width:700px) {
+  #title {
+    text-align: center;
   }
+
+  .iFun {
+    transform: none;
+  }
+}
+
+@media(max-width:700px) {
+  .iFUN {
+    transform: rotate(0);
+
+  }
+}
+
+.guff{
+  padding:100px 20px 100px 20px;
+  background: #414a4c;
+  text-align: center;
+}
+.sakyo {
+  padding:80px 20px 80px 20px;
+  
+  text-align: center;
+}
+.sakk {
+  color:black;
+}
